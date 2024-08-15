@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.fullbody{
+    height: 100vh;
+    width: 100%;
+    padding-top: 16px;
+    position: relative;
+    z-index: 10;
+}
+.video{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(0, 0, 0);
+}
+.video video{
+    height: 100vh;
+    width: 100vw;
+    object-fit:cover;
+    /* position:absolute;
+    z-index: -1; */
+}
+nav{
+    height: 70px;
+    max-width: 85vw;
+    margin: auto;
+    display: flex;
+    gap:  18px;
+}
+hr{
+    width: 85vw;
+    margin: auto;
+}
+.nav-ul-btw{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8px;
+}
+ul li{
+    list-style-type: none;
+    color: white;
+    border: 4px solid transparent;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+ul li:hover{
+    border-bottom: 4px solid blue;
+}
+.nav-ul ul{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Exo", Tahoma, Geneva, Verdana, sans-serif;
+    height: 69px;
+}
+.left li { 
+    height: 70px;
+    width: 25px;
+    font-size: 17px;
+}
+.fullbody .p{
+    height: 20px;
+    max-width: 85vw;
+    margin: auto;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Exo", serif;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.fullbody span{
+    font-weight: 700;
+}
+.none{
+    height: 120px;
+    width: 100%;
+}
+.box{
+    height: auto;
+    width: auto;
+    /* position: absolute;
+    top: 45%; */
+    max-width: 85vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.box .p1{
+    font-size: 19px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: "Exo",serif;
+    height: 20px;
+    margin-bottom: -35px;
+}
+.span5{
+    font-size: 210px;
+    font-weight: 300;
+    margin: 0px 0 8px -8px;
+    padding: 0;
+    font-family: "Exo",serif;
+    height: 215px;
+}
+.lw{
+    font-size: 23px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    font-family: "Exo",serif;
+    height: 25px;
+}
+.discover-btn{
+    height: auto;
+    width: auto;
+    max-width: 85vw;
+    margin:auto;
+}
+.discover-btn button{
+    height: 50px;
+    width: 160px;
+    background-color: #3368ad;
+    margin: 15px 0;
+    border: 1px solid transparent;
+    border-radius: 4%;
+    padding:4px 8px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.discover-btn button:hover{
+    background-color: #0653B6;
+    cursor: pointer;
+}
+.phone{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    background-color:#ffffff;
+    position: fixed;
+    bottom: 30%;
+    right: 4%;
+    color: black;
+}
+.phone i{
+    color: black;
+}
+.phone:hover{
+    background-color: #7e7c7c69;
+    cursor: pointer;
+}
+/* ....................................................................................................................................................................... */
+
+
+
+.hero1{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+    background-image: url("WhatsApp\ Image\ 2024-08-15\ at\ 11.17.42.jpeg");
+    background-position:inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-end;
+}
+.hero1-main{
+    height:300px;
+    width: 85%;
+    max-width:80vw;
+    margin:60px auto;
+    border: 2px solid transparent;
+    padding: 2rem 1rem;
+}
+.hero1-p{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    font-family: "Exo" ,serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.hero1-main h2{
+    font-size: 43px;
+    line-height: 60px;
+    font-weight: 300;
+    font-family: "Exo",serif;
+    color: #ffffff;
+}
+.hero1-main h3{
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 300;
+    font-family: "Exo",serif;
+    color: #ffffff;
+}
+
+
+/* ....................................................................................................................................................................... */
+.hero2{
+    height: auto;
+    width: 100%;
+    padding: 3rem 1.5rem 1rem 1.5rem;
+}
+.hero2-top{
+    margin-bottom: 0;
+}
+.hero2-main{
+    height: auto;
+    width: 80%;
+    max-width: 80vw;
+    margin: -10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero2box{
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    border: 1px solid transparent;
+    padding: 10px;
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #262626;
+    gap: 10px;
+}
+.hero2box img{
+    margin-top: -10px;
+}
+.hero2box h3{
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 36px;
+    font-family: "Exo",serif;
+    color: #262626;
+}
+.hero2box button{
+    height: 50px;
+    width: auto;
+    min-width: 140px;
+    background-color: white;
+    border: 1px solid rgb(100, 100, 100);
+    outline: none;
+    color: #262626;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: "Exo" , serif;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+.hero2box button:hover{
+    border: 2px solid black;
+}
+
+/* ....................................................................................................................................................................... */
+.hero3{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    background-image: url("asset\ 7.webp");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero3-main{
+    height: 50%;
+    width: 80%;
+    max-width: 80vw;
+    margin: auto;
+    gap: 20px;
+    padding: 2rem 0;
+    /* background-color: red; */
+}
+.hero3-main h1{
+    font-size: 35px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 50px;
+    font-family: "Exo",serif;
+}
+.hero3-main button{
+    height: 50px;
+    width: auto;
+    min-width: 200px;
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 1px solid rgb(255, 255, 255);
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: "Exo" , serif;
+    padding: 5px 8px;
+    border-radius: 4px;
+    margin: 25px 0;
+}
+.hero3-main button:hover{
+    color: black;
+    border-color: black;
+}
+/* ....................................................................................................................................................................... */
+
+
+.hero4,.hero5{
+    height: 50vh;
+    width: 100%;
+    /* background-color: black; */
+    margin-top: 15px;
+}
+.hero4-main{
+    height: 100%;
+    width: 85%;
+    max-width: 85vw;
+    margin: auto;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.left4{
+    background-image: url("hero3.jpeg");
+}
+.left5{
+    background-image: url("hero5.jpeg");
+}
+.mainleft{
+    height: 90%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainright{
+    height: 90%;
+    width: 60%;
+    text-align: left;
+    border: 1px solid transparent;
+    /* padding: 2rem 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainright p{
+    font-size: 12px;
+    color: #262626;
+    line-height: 16px;
+    font-family: "Exo",serif;
+    font-weight: 300;
+    margin: 8px 0;
+}
+.mainright h1{
+    font-size: 35px;
+    color: #262626;
+    line-height: 50px;
+    font-family: "Exo",serif;
+    font-weight: 300;
+    margin: 8px 0;
+}
+.mainright h2 , h3{
+    font-size: 18px;
+    color: #262626;
+    line-height: 28px;
+    font-family: "Exo",serif;
+    font-weight: 300;
+    margin: 3px 0;
+}
+.hero4-main-r button{
+    height: 47px;
+    width: 160px;
+    border: 1px solid #3a3a3a;
+    background-color: white;
+    color: #262626;
+    font-family: "Exo",serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 7px 3px;
+    cursor: pointer;
+}
+.hero4-main-r button:hover{
+    border: 2px solid black;
+}
+
+/* ....................................................................................................................................................................... */
+.hero6-box{
+    height: auto;
+    width: 100%;
+    padding: 1.8rem 0;
+    max-width: 85vw;
+    margin: 15px auto;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: left;
+}
+.hero6-box p{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 300;
+    font-family: "Exo",serif;
+    color: #262626;
+}
+.hero6-box a{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Exo",serif;
+    color: #262626;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.hero6-box a:hover{
+    color: blue;
+}
+
+
+/* ....................................................................................................................................................................... */
+footer{
+    height:300px;
+    width: 100%;
+    background-color: #F6F6F6;
+    padding: 3rem 1rem 1rem 1rem;
+    font-family: "Exo",serif;
+}
+.fcontent{
+    height: 90%;
+    max-width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    height: 100%;
+    width: 23%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 1rem;
+}
+.list h3{
+    font-size: 12px;
+    font-weight: 300;
+    color: #4d4d4d;
+    line-height: 16px;
+    margin: 10px 0;
+}
+.list a{
+    font-size: 15px;
+    font-weight: 500;
+    color: #4d4d4d;
+    line-height: 24px;
+    text-decoration: none;
+    margin: 28px 0;
+}
+.list a:hover{
+    color: black;
+}
